@@ -1,0 +1,69 @@
+// Bootstrap Variables
+
+$primary: #bf000a;
+// $secondary: #e8f2ff;
+// $success: #fff;
+// $info: #b2b1b1;
+// $warning: yellow;
+// $danger: red;
+// $light: #f8f9fa;
+// $dark: #1a1a1a;
+$transparent: #00000000;
+
+$theme-colors: (
+//   "primary": $primary,
+//   "secondary": $secondary,
+  //   "light": $light,
+  //   "success": $success,
+  //   "info": $info,
+  //   "warning": $warning,
+  //   "danger": $danger,
+  //   "dark": $dark,
+  "transparent": $transparent,
+);
+
+// breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  xxs: 320px,
+  xsm: 375px,
+  xm: 475px,
+  sm: 576px,
+  md: 768px,
+  lg: 900px,
+  xlg: 1024px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// containers
+$container-max-widths: (
+  xs: 100%,
+  xxs: 100%,
+  xsm: 100%,
+  xm: 100%,
+  sm: 560px,
+  md: 740px,
+  lg: 870px,
+  xlg: 980px,
+  xl: 1000px,
+  xxl: 1201px,
+);
+
+$zindex-levels: (
+  n1: -1,
+  0: 0,
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4,
+  5: 5,
+  6: 6,
+  7: 7,
+);
+
+$link-color: $transparent !default;
+$link-decoration: none !default;
+$link-shade-percentage: 20% !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';

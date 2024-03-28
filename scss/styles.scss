@@ -1,0 +1,89 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+$primary: #bf000a;
+$Croissant: "Croissant One", serif;
+$Roboto: "Roboto Serif", serif;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: $Roboto;
+}
+body {
+  background: #1a1a1a;
+  overflow-x: hidden;
+  color: white;
+}
+.header {
+  height: 3rem;
+  background: #1a1a1acc;
+  box-shadow: 1px 1px 1px #fff;
+}
+.navbar {
+  height: 100%;
+}
+.header-logo {
+  color: $primary;
+  font-family: $Croissant;
+  font-weight: bolder;
+}
+.hamburger-close-icon {
+  border-radius: 50%;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.navItem {
+  font-family: $Roboto;
+  font-weight: 500;
+}
+.navbar-1 {
+  position: absolute;
+  top: 0rem;
+  height: 100vh;
+  width: 50%;
+  background: #1a1a1a;
+  transform: translateX(-100%);
+  transition: all ease-in-out 0.3s;
+}
+.hamburger-icon {
+  position: absolute;
+  right: 0.5rem;
+}
+.api-name {
+  width: 2rem;
+}
+
+// HERO
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+.hero-container {
+  width: 100%;
+}
+.movie-title {
+  font-size: 2rem;
+}
+.movie-star {
+  font-size: 0.8rem;
+}
+.rating {
+  font-size: 0.8rem;
+}
+.movie-overview {
+  font-size: 0.9rem;
+}
+.view-more {
+  width: 7rem;
+  height: 2.5rem;
+  color: #ffffff;
+  background: $primary;
+  border: none;
+  border-radius: 0rem;
+}
+.genre {
+  font-size: 0.8rem;
+}
